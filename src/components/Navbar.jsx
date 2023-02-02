@@ -19,8 +19,8 @@ const theme = createTheme({
 
 const Navbar = () => {
 
-  const navigate = useNavigate()
-
+  const navigate = useNavigate();
+  {/*function to navigate to page onclick*/}
   const handleNavigate = (url) => {
     navigate(url)
   }

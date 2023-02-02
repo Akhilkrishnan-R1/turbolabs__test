@@ -1,3 +1,5 @@
+{/*exporting pages*/}
+
 import HomePage from "./HomePage";
 import CharacterListPage from "./CharacterListPage";
 import SingleCharacterPage from "./SingleCharacterPage";
