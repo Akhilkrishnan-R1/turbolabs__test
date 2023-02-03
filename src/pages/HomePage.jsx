@@ -8,9 +8,7 @@ const overview = "Rick and Morty is an American adult animated science-fiction s
 
 const HomePage = () => {
 
-  const { data } = useQuery(GET_CHARACTERS, {
-     fetchPolicy: "no-cache" 
-    });
+  const { data } = useQuery(GET_CHARACTERS);
 
   return (
     <Stack direction='column' sx={{ paddingY:5, bgcolor: '#F5F5A4F9'}}>

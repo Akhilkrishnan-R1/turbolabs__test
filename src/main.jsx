@@ -4,10 +4,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 
 
-const GRAPHQL_URI = import.meta.env.VITE_GRAPHQL_URI
 {/*conecting graphql with react*/}
 const client = new ApolloClient({
-  uri: GRAPHQL_URI,
+  uri: 'https://rickandmortyapi.com/graphql',
   cache: new InMemoryCache(),
 });
 
